@@ -21,7 +21,11 @@ body {
 	font-size: 110%;
 	color: #ecf0f1;
 	font-family: 'Jacquard 12', serif;
-	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	background-image: url(wallpaper.png);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	/* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -38,7 +42,7 @@ h1 {
 	height: 100%;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
 
